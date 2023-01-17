@@ -1,0 +1,4 @@
+đầu tiên là binary, decode ra 1 text base64, decode tiếp được 1 text như này: KPSVNUJBRSANCCLAEAEEGKKOUOEOEATTTOSESROYRFLSI
+
+mới đầu nghĩ là ceasar cipher, nhưng tên challenge "chuyến tàu vô tận" dẫn mình nghĩ đến rail fence cipher. Lên web bruteforce rail fence xong tìm cái có nghĩa nhất thì 
+được flag: KCSCPLEASESAVERENGOKUKYOJUROBEFORELASTSTATION
