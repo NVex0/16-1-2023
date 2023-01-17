@@ -1,4 +1,4 @@
-Giống bài sô lớn nhất :c, cũng lấy data về để làm rồi gửi đi.
+Giống bài số lớn nhất :c, cũng lấy data về để làm rồi gửi đi.
 ```
 def sosanh(array):
     fin = []
