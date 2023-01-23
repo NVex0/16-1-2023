@@ -13,7 +13,7 @@ Sửa code Decryptor đi 1 tí (extension thành ".kcsc"), run code và mở fil
 
 `_1n_v1ct1m_c0mput3r}`
 
-về Part 2 thì,run encrypt.exe.
+về Part 2 thì, run encrypt.exe.
 
 vào thư mục %temp% thấy có thư mục mới hiện ra:
 
