@@ -13,16 +13,17 @@ Sửa code Decryptor đi 1 tí (extension thành ".kcsc"), run code và mở fil
 
 `_1n_v1ct1m_c0mput3r}`
 
-về Part 2 thì, mở Procmon lên, run encrypt.exe.
+về Part 2 thì,run encrypt.exe.
 
-Dựa vào hint, e chỉ tập trung vào mục %temp% với filter là `PID is 4852`.
+vào thư mục %temp% thấy có thư mục mới hiện ra:
 
-Part 2 là đi đếm số malicious dlls, nên là filter thêm `path endswith .dll` vào nữa.
+![image](https://user-images.githubusercontent.com/113530029/213950777-769d7bfa-b978-4b1a-a287-d6a862166e2c.png)
 
-Tham khảo 1 số bài viết về dll-hijicking, e thêm filter `result is NAME NOT FOUND`.
+Search ".dll", ta được số dll là 7.
 
-![image](https://user-images.githubusercontent.com/113530029/213938466-9796c916-3adc-4d81-ac03-0e3eeba1b768.png)
+![image](https://user-images.githubusercontent.com/113530029/213950901-11a5632b-b0a2-4762-83a7-f858330174e3.png)
 
-v là rút ngắn còn 10 dlls :v e bruteforce ra flag. Hóng Wu chữa bài này sớm :c
+=> part 2 = 7.
+
 
 flag: `KCSC{D0nt_sk1p_4nyth1ng_7_1n_v1ct1m_c0mput3r}`
